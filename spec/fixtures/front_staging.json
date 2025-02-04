@@ -1,0 +1,81 @@
+{
+  "_links": {
+    "self": {
+      "href": ""
+    },
+    "latest": {
+      "href": ""
+    },
+    "oldest": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "pipelines": [
+      {
+        "_links": {
+          "self": {
+            "href": ""
+          },
+          "latest": {
+            "href": ""
+          },
+          "oldest": {
+            "href": ""
+          },
+          "next": {
+            "href": ""
+          },
+          "docs": {
+            "href": ""
+          }
+        },
+        "counter": 1,
+        "result": "failed",
+        "commits": [
+          {
+            "_links": {
+              "github": [
+                {
+                  "rel": "api",
+                  "href": ""
+                },
+                {
+                  "rel": "http",
+                  "href": ""
+                }
+              ]
+            },
+            "sha": "2628c6ae2e41093e972b681ddb29381920dd25b7",
+            "short_sha": "2628c6a",
+            "author": "",
+            "message": "",
+            "time": "2016-05-10T15:48:20Z"
+          }
+        ],
+        "stages": [
+          {
+            "name": "EditMe",
+            "full_name": "oneorg/front (staging) :: EditMe",
+            "result": "failed",
+            "duration": 36,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "failed",
+                "duration": 26.20651388168335,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-12T10:23:45Z",
+                "completed_at": "2016-05-12T10:24:11Z"
+              }
+            ],
+            "started_at": "2016-05-12T10:23:35Z",
+            "completed_at": "2016-05-12T10:24:11Z"
+          }
+        ]
+      }
+    ]
+  }
+}

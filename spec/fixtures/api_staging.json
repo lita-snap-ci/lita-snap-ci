@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": ""
+    },
+    "previous": {
+      "href": ""
+    },
+    "latest": {
+      "href": ""
+    },
+    "oldest": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "pipelines": [
+      {
+        "_links": {
+          "self": {
+            "href": ""
+          },
+          "latest": {
+            "href": ""
+          },
+          "oldest": {
+            "href": ""
+          },
+          "previous": {
+            "href": ""
+          },
+          "next": {
+            "href": ""
+          },
+          "docs": {
+            "href": ""
+          }
+        },
+        "counter": 107,
+        "result": "passed",
+        "commits": [
+          {
+            "_links": {
+              "github": [
+                {
+                  "rel": "api",
+                  "href": ""
+                },
+                {
+                  "rel": "http",
+                  "href": ""
+                }
+              ]
+            },
+            "sha": "02a8b141f57640c545043f5ede86f26ab4b32b3d",
+            "short_sha": "02a8b14",
+            "author": "",
+            "message": "",
+            "time": "2016-05-19T09:43:56Z"
+          }
+        ],
+        "stages": [
+          {
+            "name": "Integration",
+            "full_name": "exampleorg/api (staging) :: Integration",
+            "result": "passed",
+            "duration": 233,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 218.24218010902405,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-19T09:47:32Z",
+                "completed_at": "2016-05-19T09:51:11Z"
+              }
+            ],
+            "started_at": "2016-05-19T09:47:18Z",
+            "completed_at": "2016-05-19T09:51:11Z"
+          },
+          {
+            "name": "deploy_staging",
+            "full_name": "exampleorg/api (staging) :: deploy_staging",
+            "result": "passed",
+            "duration": 165,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 163.77156615257263,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-19T09:51:12Z",
+                "completed_at": "2016-05-19T09:53:56Z"
+              }
+            ],
+            "started_at": "2016-05-19T09:51:11Z",
+            "completed_at": "2016-05-19T09:53:56Z"
+          }
+        ]
+      }
+    ]
+  }
+}

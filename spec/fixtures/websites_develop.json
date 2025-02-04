@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": ""
+    },
+    "previous": {
+      "href": ""
+    },
+    "latest": {
+      "href": ""
+    },
+    "oldest": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "pipelines": [
+      {
+        "_links": {
+          "self": {
+            "href": ""
+          },
+          "latest": {
+            "href": ""
+          },
+          "oldest": {
+            "href": ""
+          },
+          "previous": {
+            "href": ""
+          },
+          "next": {
+            "href": ""
+          },
+          "docs": {
+            "href": ""
+          }
+        },
+        "counter": 202,
+        "result": "passed",
+        "commits": [
+          {
+            "_links": {
+              "github": [
+                {
+                  "rel": "api",
+                  "href": ""
+                },
+                {
+                  "rel": "http",
+                  "href": ""
+                }
+              ]
+            },
+            "sha": "3576e8c8253f9d38f6d585e6240ef3da1c729fbc",
+            "short_sha": "3576e8c",
+            "author": "",
+            "message": "",
+            "time": "2016-06-01T08:34:28Z"
+          }
+        ],
+        "stages": [
+          {
+            "name": "TEST",
+            "full_name": "otherorg/websites (develop) :: TEST",
+            "result": "passed",
+            "duration": 60,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 46.77930283546448,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-06-01T08:38:08Z",
+                "completed_at": "2016-06-01T08:38:55Z"
+              }
+            ],
+            "started_at": "2016-06-01T08:37:56Z",
+            "completed_at": "2016-06-01T08:38:56Z"
+          },
+          {
+            "name": "Build",
+            "full_name": "otherorg/websites (develop) :: Build",
+            "result": "passed",
+            "duration": 602,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 588.9215080738068,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-06-01T08:59:22Z",
+                "completed_at": "2016-06-01T09:09:11Z"
+              }
+            ],
+            "started_at": "2016-06-01T08:59:10Z",
+            "completed_at": "2016-06-01T09:09:12Z"
+          }
+        ]
+      }
+    ]
+  }
+}

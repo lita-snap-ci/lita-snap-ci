@@ -1,0 +1,12 @@
+Project: oneorg/front:
+  staging: failed (EditMe: failed)
+  master: failed (Test: failed)
+
+Project: otherorg/websites:
+  develop: passed (TEST: passed, Build: passed)
+  master: passed (TEST: passed, Build: passed)
+
+Project: oneorg/api:
+  development: passed (Integration: passed, Brakeman: passed)
+  master: passed (FastFeedback: passed, Integration: passed, deploy_prod: unknown)
+  staging: passed (Integration: passed, deploy_staging: passed)

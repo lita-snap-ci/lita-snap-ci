@@ -1,0 +1,107 @@
+{
+  "_links": {
+    "self": {
+      "href": ""
+    },
+    "previous": {
+      "href": ""
+    },
+    "latest": {
+      "href": ""
+    },
+    "oldest": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "pipelines": [
+      {
+        "_links": {
+          "self": {
+            "href": ""
+          },
+          "latest": {
+            "href": ""
+          },
+          "oldest": {
+            "href": ""
+          },
+          "previous": {
+            "href": ""
+          },
+          "next": {
+            "href": ""
+          },
+          "docs": {
+            "href": ""
+          }
+        },
+        "counter": 177,
+        "result": "passed",
+        "commits": [
+          {
+            "_links": {
+              "github": [
+                {
+                  "rel": "api",
+                  "href": ""
+                },
+                {
+                  "rel": "http",
+                  "href": ""
+                }
+              ]
+            },
+            "sha": "02a8b141f57640c545043f5ede86f26ab4b32b3d",
+            "short_sha": "02a8b14",
+            "author": "",
+            "message": "",
+            "time": "2016-05-19T09:43:56Z"
+          }
+        ],
+        "stages": [
+          {
+            "name": "Integration",
+            "full_name": "zenmate/api (development) :: Integration",
+            "result": "passed",
+            "duration": 119,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 93.09199094772339,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-19T09:44:40Z",
+                "completed_at": "2016-05-19T09:46:13Z"
+              }
+            ],
+            "started_at": "2016-05-19T09:44:15Z",
+            "completed_at": "2016-05-19T09:46:14Z"
+          },
+          {
+            "name": "Brakeman",
+            "full_name": "oneorg/api (development) :: Brakeman",
+            "result": "passed",
+            "duration": 47,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 44.53549098968506,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-19T09:46:16Z",
+                "completed_at": "2016-05-19T09:47:01Z"
+              }
+            ],
+            "started_at": "2016-05-19T09:46:15Z",
+            "completed_at": "2016-05-19T09:47:02Z"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+en:
+  lita:
+    handlers:
+      snap_ci:
+        report:
+          command: snap-ci report
+          desc: display a general report, with all the branches and status per project
+        project:
+          command: snap-ci status <owner>/<repo> or <repo>
+          desc: display a single project report with all the branches and status
+        parser:
+          error: Untracked branch in snap-ci

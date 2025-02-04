@@ -1,0 +1,101 @@
+{
+  "_links": {
+    "self": {
+      "href": ""
+    },
+    "latest": {
+      "href": ""
+    },
+    "oldest": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "pipelines": [
+      {
+        "_links": {
+          "self": {
+            "href": ""
+          },
+          "latest": {
+            "href": ""
+          },
+          "oldest": {
+            "href": ""
+          },
+          "next": {
+            "href": ""
+          },
+          "docs": {
+            "href": ""
+          }
+        },
+        "counter": 1,
+        "result": "passed",
+        "commits": [
+          {
+            "_links": {
+              "github": [
+                {
+                  "rel": "api",
+                  "href": ""
+                },
+                {
+                  "rel": "http",
+                  "href": ""
+                }
+              ]
+            },
+            "sha": "52cddc781f9a0ca8106307ed11455b523f60f133",
+            "short_sha": "52cddc7",
+            "author": "",
+            "message": "",
+            "time": "2016-04-19T06:34:33Z"
+          }
+        ],
+        "stages": [
+          {
+            "name": "TEST",
+            "full_name": "otherorg/websites (master) :: TEST",
+            "result": "passed",
+            "duration": 221,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 199.91909289360046,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-04-19T08:52:16Z",
+                "completed_at": "2016-04-19T08:55:36Z"
+              }
+            ],
+            "started_at": "2016-04-19T08:51:55Z",
+            "completed_at": "2016-04-19T08:55:36Z"
+          },
+          {
+            "name": "Build",
+            "full_name": "zenmate/websites (master) :: Build",
+            "result": "passed",
+            "duration": 809,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 800.1221342086792,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-04-19T09:08:52Z",
+                "completed_at": "2016-04-19T09:22:12Z"
+              }
+            ],
+            "started_at": "2016-04-19T09:08:43Z",
+            "completed_at": "2016-04-19T09:22:12Z"
+          }
+        ]
+      }
+    ]
+  }
+}

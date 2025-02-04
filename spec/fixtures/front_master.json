@@ -1,0 +1,78 @@
+{
+  "_links": {
+    "self": {
+      "href": ""
+    },
+    "latest": {
+      "href": ""
+    },
+    "oldest": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "pipelines": [
+      {
+        "_links": {
+          "self": {
+            "href": ""
+          },
+          "latest": {
+            "href": ""
+          },
+          "oldest": {
+            "href": ""
+          },
+          "docs": {
+            "href": ""
+          }
+        },
+        "counter": 1,
+        "result": "failed",
+        "commits": [
+          {
+            "_links": {
+              "github": [
+                {
+                  "rel": "api",
+                  "href": ""
+                },
+                {
+                  "rel": "http",
+                  "href": ""
+                }
+              ]
+            },
+            "sha": "7b3074bb28849b2b0bf4495e6dbeac5178b145a4",
+            "short_sha": "7b3074b",
+            "author": "",
+            "message": "",
+            "time": "2016-05-12T10:27:08Z"
+          }
+        ],
+        "stages": [
+          {
+            "name": "Test",
+            "full_name": "front/bi-etl (master) :: Test",
+            "result": "failed",
+            "duration": 39,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "failed",
+                "duration": 25.212702989578247,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-12T12:51:02Z",
+                "completed_at": "2016-05-12T12:51:27Z"
+              }
+            ],
+            "started_at": "2016-05-12T12:50:48Z",
+            "completed_at": "2016-05-12T12:51:27Z"
+          }
+        ]
+      }
+    ]
+  }
+}

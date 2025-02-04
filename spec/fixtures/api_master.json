@@ -1,0 +1,127 @@
+{
+  "_links": {
+    "self": {
+      "href": ""
+    },
+    "previous": {
+      "href": ""
+    },
+    "latest": {
+      "href": ""
+    },
+    "oldest": {
+      "href": ""
+    }
+  },
+  "_embedded": {
+    "pipelines": [
+      {
+        "_links": {
+          "self": {
+            "href": ""
+          },
+          "latest": {
+            "href": ""
+          },
+          "oldest": {
+            "href": ""
+          },
+          "previous": {
+            "href": ""
+          },
+          "next": {
+            "href": ""
+          },
+          "docs": {
+            "href": ""
+          }
+        },
+        "counter": 37,
+        "result": "passed",
+        "commits": [
+          {
+            "_links": {
+              "github": [
+                {
+                  "rel": "api",
+                  "href": ""
+                },
+                {
+                  "rel": "http",
+                  "href": ""
+                }
+              ]
+            },
+            "sha": "1f796de91acefadfef21ec11b43d1f54328a5290",
+            "short_sha": "1f796de",
+            "author": "",
+            "message": "",
+            "time": "2016-05-04T01:24:38Z"
+          }
+        ],
+        "stages": [
+          {
+            "name": "FastFeedback",
+            "full_name": "exampleorg/api (master) :: FastFeedback",
+            "result": "passed",
+            "duration": 131,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 116.49985098838806,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-04T01:24:57Z",
+                "completed_at": "2016-05-04T01:26:53Z"
+              }
+            ],
+            "started_at": "2016-05-04T01:24:43Z",
+            "completed_at": "2016-05-04T01:26:54Z"
+          },
+          {
+            "name": "Integration",
+            "full_name": "exampleorg/api (master) :: Integration",
+            "result": "passed",
+            "duration": 79,
+            "workers": [
+              {
+                "counter": 1,
+                "result": "passed",
+                "duration": 78.41696691513062,
+                "artifacts": [
+
+                ],
+                "started_at": "2016-05-04T01:26:55Z",
+                "completed_at": "2016-05-04T01:28:13Z"
+              }
+            ],
+            "started_at": "2016-05-04T01:26:54Z",
+            "completed_at": "2016-05-04T01:28:13Z"
+          },
+          {
+            "name": "deploy_prod",
+            "full_name": "exampleorg/api (master) :: deploy_prod",
+            "result": "unknown",
+            "duration": null,
+            "workers": [
+              {
+                "counter": 1,
+                "result": null,
+                "duration": 0,
+                "artifacts": [
+
+                ],
+                "started_at": null,
+                "completed_at": null
+              }
+            ],
+            "started_at": null,
+            "completed_at": null
+          }
+        ]
+      }
+    ]
+  }
+}
